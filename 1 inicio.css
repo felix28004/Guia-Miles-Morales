@@ -1,0 +1,112 @@
+body{
+    background-color: #121212;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    width: 40%;
+    margin-left: 10%;
+    background-color: #cb1017;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: -4%;
+    font-family: 'Schoolbell', cursive;
+
+}
+.gif{
+    margin-left: 55%;
+    width: 40%;
+    box-shadow: 3px 4px 60px #0f49ce;
+    margin-top: 0%;
+   
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+    border: 3px solid #a20203;
+    width: 20%;
+    margin-top: -31%;
+    margin-left: 15%;
+    font-size: 27px;
+    padding: 5px;
+    font-family: 'Kalam', cursive;
+   
+}
+
+p{
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-left: 5%;
+    margin-bottom: 35%;
+    width: 45%;
+    font-family: 'Syne', sans-serif;
+
+}
+/* BARRA */
+  /* Posición del botón de cerrar (esquina arriba derecha) */
+.cerrar {
+    width: 80px;
+    margin-top: 5%;
+    margin-left: 7px;
+}
+.abrir{
+  width: 80px;
+  margin-top: 1%;
+}
+
+.cerrar:hover{
+    background-color: #121212;
+    border-radius: 4px;
+}
+.abrir:hover{
+    background-color: #0a2e82;
+    border-radius: 4px;
+ }
+
+.boton {
+    /* La altura y anchura dependerán de cómo quieras mostrar la capa (JS) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Se mantiene en su posición aunque haya scrolls */
+    z-index: 1; /* Se coloca encima de otros elementos, como en powerpoint */
+    left: 0; /* Pegado a la izquierda */
+    top: 0; /* Pegado arriba */
+    background-color: #0a2e82a2; /* Black fallback color */
+    overflow-x: hidden; /* Así evitamos scroll horizontal */
+    transition: 0.5s; /* para aparecer o desaparecer (cambia el efecto con la altura y anchura */
+    border-right: 3px solid #1155f4;
+}
+  
+  /* Para ubicar el contenido de la capa */
+  .paginas {
+    position: relative; /* Al elemento que lo contiene */
+    text-align: center;
+    margin-top: 45px; /* Sólo para que no solape con el botón de cerrar en pantallas pequeñas */
+}
+  
+  /* Enlaces dentro de la capa */
+  .boton a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: inline-block; /* Comentar block vs inline */
+    transition: 0.3s; /* En el efecto hoover/focus */
+    margin-top: 65px;
+    border-bottom: 3px solid #1155f4;
+    width: 80%;
+    font-family: 'Prompt', sans-serif;
+}
+  /* En los enlaces de la capa */
+  .boton a:hover, .boton a:focus {
+    color: #ffffff;
+    background-color: #1155f4b4;
+    border-radius: 2px;
+    padding: 30px;
+    color: #fe151e;
+    
+    
+  }
+  
