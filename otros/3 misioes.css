@@ -42,7 +42,7 @@ h1{
     z-index: 1; /* Se coloca encima de otros elementos, como en powerpoint */
     left: 0; /* Pegado a la izquierda */
     top: 0; /* Pegado arriba */
-    background-color: #0a2e82a2; /* Black fallback color */
+     background-color: #0a2e82f4; 
     overflow-x: hidden; /* Así evitamos scroll horizontal */
     transition: 0.5s; /* para aparecer o desaparecer (cambia el efecto con la altura y anchura */
     border-right: 3px solid #1155f4;
